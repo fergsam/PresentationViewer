@@ -3,16 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 45;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		520A8AD71F81ACE800B039CC /* PresentationViewerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520A8AD61F81ACE800B039CC /* PresentationViewerModel.swift */; };
+		520A8AE21F8337AD00B039CC /* PresentationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520A8AE01F8337AD00B039CC /* PresentationTableViewController.swift */; };
+		520A8AE31F8337AE00B039CC /* PresentationTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 520A8AE11F8337AD00B039CC /* PresentationTableViewController.xib */; };
+		52B6DD601F85AAC0004582A6 /* BookmarksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B6DD5E1F85AAC0004582A6 /* BookmarksTableViewController.swift */; };
+		52B6DD611F85AAC0004582A6 /* BookmarksTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52B6DD5F1F85AAC0004582A6 /* BookmarksTableViewController.xib */; };
+		52C244A01F89D941009B6F77 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C2449F1F89D941009B6F77 /* MyView.swift */; };
+		52C244A31F89EEF6009B6F77 /* PDFViewHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C244A11F89EEF6009B6F77 /* PDFViewHolder.swift */; };
+		52C244A41F89EEF6009B6F77 /* PDFViewHolder.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52C244A21F89EEF6009B6F77 /* PDFViewHolder.xib */; };
 		52EFE9301F81A5DF00F122D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EFE92F1F81A5DF00F122D1 /* AppDelegate.swift */; };
-		52EFE9321F81A5DF00F122D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EFE9311F81A5DF00F122D1 /* ViewController.swift */; };
 		52EFE9341F81A5DF00F122D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52EFE9331F81A5DF00F122D1 /* Assets.xcassets */; };
-		52EFE9371F81A5DF00F122D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52EFE9351F81A5DF00F122D1 /* Main.storyboard */; };
 		52EFE9421F81A5DF00F122D1 /* PresentationViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EFE9411F81A5DF00F122D1 /* PresentationViewerTests.swift */; };
 		52EFE94D1F81A5DF00F122D1 /* PresentationViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EFE94C1F81A5DF00F122D1 /* PresentationViewerUITests.swift */; };
+		52EFE95B1F81A69200F122D1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52EFE95A1F81A69200F122D1 /* MainMenu.xib */; };
+		52EFE95E1F81A84700F122D1 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52EFE95D1F81A84700F122D1 /* Quartz.framework */; };
+		52EFE9611F81A8CD00F122D1 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EFE95F1F81A8CD00F122D1 /* WindowController.swift */; };
+		52EFE9621F81A8CD00F122D1 /* WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52EFE9601F81A8CD00F122D1 /* WindowController.xib */; };
+		52FF981B1F87275B007ADEF2 /* PresentationWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FF98191F87275B007ADEF2 /* PresentationWindow.swift */; };
+		52FF981C1F87275B007ADEF2 /* PresentationWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52FF981A1F87275B007ADEF2 /* PresentationWindow.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,11 +45,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		520A8AD61F81ACE800B039CC /* PresentationViewerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationViewerModel.swift; sourceTree = "<group>"; };
+		520A8AE01F8337AD00B039CC /* PresentationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationTableViewController.swift; sourceTree = "<group>"; };
+		520A8AE11F8337AD00B039CC /* PresentationTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PresentationTableViewController.xib; sourceTree = "<group>"; };
+		52B6DD5E1F85AAC0004582A6 /* BookmarksTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookmarksTableViewController.swift; sourceTree = "<group>"; };
+		52B6DD5F1F85AAC0004582A6 /* BookmarksTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookmarksTableViewController.xib; sourceTree = "<group>"; };
+		52C2449F1F89D941009B6F77 /* MyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		52C244A11F89EEF6009B6F77 /* PDFViewHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFViewHolder.swift; sourceTree = "<group>"; };
+		52C244A21F89EEF6009B6F77 /* PDFViewHolder.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PDFViewHolder.xib; sourceTree = "<group>"; };
 		52EFE92C1F81A5DE00F122D1 /* PresentationViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PresentationViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52EFE92F1F81A5DF00F122D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		52EFE9311F81A5DF00F122D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		52EFE9331F81A5DF00F122D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		52EFE9361F81A5DF00F122D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52EFE9381F81A5DF00F122D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52EFE93D1F81A5DF00F122D1 /* PresentationViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PresentationViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52EFE9411F81A5DF00F122D1 /* PresentationViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationViewerTests.swift; sourceTree = "<group>"; };
@@ -45,6 +63,12 @@
 		52EFE9481F81A5DF00F122D1 /* PresentationViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PresentationViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52EFE94C1F81A5DF00F122D1 /* PresentationViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationViewerUITests.swift; sourceTree = "<group>"; };
 		52EFE94E1F81A5DF00F122D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52EFE95A1F81A69200F122D1 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		52EFE95D1F81A84700F122D1 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		52EFE95F1F81A8CD00F122D1 /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		52EFE9601F81A8CD00F122D1 /* WindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WindowController.xib; sourceTree = "<group>"; };
+		52FF98191F87275B007ADEF2 /* PresentationWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationWindow.swift; sourceTree = "<group>"; };
+		52FF981A1F87275B007ADEF2 /* PresentationWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PresentationWindow.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52EFE95E1F81A84700F122D1 /* Quartz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +104,7 @@
 				52EFE9401F81A5DF00F122D1 /* PresentationViewerTests */,
 				52EFE94B1F81A5DF00F122D1 /* PresentationViewerUITests */,
 				52EFE92D1F81A5DE00F122D1 /* Products */,
+				52EFE95C1F81A84600F122D1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,10 +122,21 @@
 			isa = PBXGroup;
 			children = (
 				52EFE92F1F81A5DF00F122D1 /* AppDelegate.swift */,
-				52EFE9311F81A5DF00F122D1 /* ViewController.swift */,
+				52EFE9601F81A8CD00F122D1 /* WindowController.xib */,
+				520A8AD61F81ACE800B039CC /* PresentationViewerModel.swift */,
+				52EFE95F1F81A8CD00F122D1 /* WindowController.swift */,
+				52C2449F1F89D941009B6F77 /* MyView.swift */,
+				52FF98191F87275B007ADEF2 /* PresentationWindow.swift */,
+				52C244A11F89EEF6009B6F77 /* PDFViewHolder.swift */,
+				52C244A21F89EEF6009B6F77 /* PDFViewHolder.xib */,
+				52FF981A1F87275B007ADEF2 /* PresentationWindow.xib */,
+				520A8AE01F8337AD00B039CC /* PresentationTableViewController.swift */,
+				52B6DD5E1F85AAC0004582A6 /* BookmarksTableViewController.swift */,
+				52B6DD5F1F85AAC0004582A6 /* BookmarksTableViewController.xib */,
+				520A8AE11F8337AD00B039CC /* PresentationTableViewController.xib */,
 				52EFE9331F81A5DF00F122D1 /* Assets.xcassets */,
-				52EFE9351F81A5DF00F122D1 /* Main.storyboard */,
 				52EFE9381F81A5DF00F122D1 /* Info.plist */,
+				52EFE95A1F81A69200F122D1 /* MainMenu.xib */,
 			);
 			path = PresentationViewer;
 			sourceTree = "<group>";
@@ -120,6 +157,14 @@
 				52EFE94E1F81A5DF00F122D1 /* Info.plist */,
 			);
 			path = PresentationViewerUITests;
+			sourceTree = "<group>";
+		};
+		52EFE95C1F81A84600F122D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52EFE95D1F81A84700F122D1 /* Quartz.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,7 +250,7 @@
 				};
 			};
 			buildConfigurationList = 52EFE9271F81A5DE00F122D1 /* Build configuration list for PBXProject "PresentationViewer" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 3.1";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -230,7 +275,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				52EFE9341F81A5DF00F122D1 /* Assets.xcassets in Resources */,
-				52EFE9371F81A5DF00F122D1 /* Main.storyboard in Resources */,
+				52FF981C1F87275B007ADEF2 /* PresentationWindow.xib in Resources */,
+				52EFE9621F81A8CD00F122D1 /* WindowController.xib in Resources */,
+				52EFE95B1F81A69200F122D1 /* MainMenu.xib in Resources */,
+				52C244A41F89EEF6009B6F77 /* PDFViewHolder.xib in Resources */,
+				52B6DD611F85AAC0004582A6 /* BookmarksTableViewController.xib in Resources */,
+				520A8AE31F8337AE00B039CC /* PresentationTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,8 +305,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52EFE9321F81A5DF00F122D1 /* ViewController.swift in Sources */,
 				52EFE9301F81A5DF00F122D1 /* AppDelegate.swift in Sources */,
+				52C244A31F89EEF6009B6F77 /* PDFViewHolder.swift in Sources */,
+				52B6DD601F85AAC0004582A6 /* BookmarksTableViewController.swift in Sources */,
+				520A8AD71F81ACE800B039CC /* PresentationViewerModel.swift in Sources */,
+				52C244A01F89D941009B6F77 /* MyView.swift in Sources */,
+				52FF981B1F87275B007ADEF2 /* PresentationWindow.swift in Sources */,
+				52EFE9611F81A8CD00F122D1 /* WindowController.swift in Sources */,
+				520A8AE21F8337AD00B039CC /* PresentationTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,17 +346,6 @@
 			targetProxy = 52EFE9491F81A5DF00F122D1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		52EFE9351F81A5DF00F122D1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				52EFE9361F81A5DF00F122D1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		52EFE94F1F81A5DF00F122D1 /* Debug */ = {
@@ -498,6 +543,7 @@
 				52EFE9531F81A5DF00F122D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52EFE9541F81A5DF00F122D1 /* Build configuration list for PBXNativeTarget "PresentationViewerTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +552,7 @@
 				52EFE9561F81A5DF00F122D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52EFE9571F81A5DF00F122D1 /* Build configuration list for PBXNativeTarget "PresentationViewerUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +561,7 @@
 				52EFE9591F81A5DF00F122D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
